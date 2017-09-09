@@ -10,4 +10,10 @@ Web Extensions template for Google Chrome/Chromium and Firefox.
 $ npm init
 ```
 
+2. Install webpack and babel
+
+```console
+$ npm install -D webpack babel-loader babel-preset-es2015
+```
+
 
