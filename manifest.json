@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Web Extension Tutorial",
+  "description": "Web Extensions tutorial for Google Chrome/Chromium and Firefox.",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": [ "http://*/*", "https://*/*" ],
+      "js": [ "build/content.js" ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "build/background.js"
+    ]
+  }
+}
