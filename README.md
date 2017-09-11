@@ -105,7 +105,7 @@ background scripts.
 }
 ```
 
-To load the extension, open `about:config` on Firefox, or `chrome://extensions`
+To load the extension, open `about:debugging` on Firefox, or `chrome://extensions`
 on Google Chrome/Chromium.  After confirmed to load the extension, you can
 start to develop scripts. The example codes are in `src/background/index.js` and
 `src/content/index.js`.
